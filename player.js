@@ -20,7 +20,7 @@ videojs.registerPlugin('password', function(pluginOptions) {
   newElement.setAttribute("style", "display:flex;justify-content:center;align-items:center;");
 
   // Create content for ModalDialog
-  newElement.innerHTML = '<div class="wrap"><h2>Enter password</h2><br><input class="theFormInput" type="password" id="passwordInputID"><br><input id="formButtonID" class="theForm" type="submit" value="Log In"></div>';
+  newElement.innerHTML = '<div class="wrap"><h2>Enter Store Password</h2><br><input class="theFormInput" type="password" id="passwordInputID"><br><input id="formButtonID" class="theForm" type="submit" value="View"></div>';
 
   // Be sure user cannot close ModalDialog, set content
   modalOptions.uncloseable = true;
